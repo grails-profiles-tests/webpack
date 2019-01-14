@@ -6,7 +6,7 @@ plugins {
 }
 
 ext {
-  grailsCoreBranch = '3.3.x'
+  grailsCoreBranch = 'master'
   profilesSlug = 'grails-profiles'
   profiles = [
           'base',
