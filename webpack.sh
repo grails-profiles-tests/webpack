@@ -5,13 +5,13 @@ EXIT_STATUS=0
 
 mkdir multi
 
-mv web multi/web
+mv webpack multi/webpack
 
-mv multi/web/gradle multi/gradle
+mv multi/webpack/gradle multi/gradle
 
-mv multi/web/gradlew multi/gradlew
+mv multi/wewebpackb/gradlew multi/gradlew
 
-mv multi/web/gradlew.bat multi/gradlew.bat
+mv multi/webpack/gradlew.bat multi/gradlew.bat
 
 cp -r functional-tests multi/
 
@@ -21,9 +21,9 @@ cd multi
 
 touch settings.gradle
 
-echo "include 'web', 'functional-tests'" >> settings.gradle
+echo "include 'webpack', 'functional-tests'" >> settings.gradle
 
-cd web
+cd webpack
 
 ./grailsw assemble || EXIT_STATUS=$? 
 
@@ -149,7 +149,7 @@ if [ $EXIT_STATUS -ne 0 ]; then
   exit $EXIT_STATUS
 fi
 
-cd multi/web
+cd multi/webpack
 
 ./grailsw test-app || EXIT_STATUS=$? 
 
