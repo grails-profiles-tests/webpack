@@ -93,7 +93,7 @@ task cloneRepos {
 task fixTests {
   ext {
     appFolders = [
-            'web',
+            'webpack',
     ]
     appPackage = 'demo'
     unitTestFolder = 'src/test/groovy/'
