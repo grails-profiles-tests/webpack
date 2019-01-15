@@ -15,5 +15,8 @@ class HomeSpec extends GebSpec {
 
         then:
         at HomePage
+
+	and:
+	browser.driver.pageSource.contains('Webpack-rendered content')
     }
 }
