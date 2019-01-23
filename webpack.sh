@@ -9,7 +9,7 @@ mv webpack multi/webpack
 
 mv multi/webpack/gradle multi/gradle
 
-mv multi/wewebpackb/gradlew multi/gradlew
+mv multi/webpack/gradlew multi/gradlew
 
 mv multi/webpack/gradlew.bat multi/gradlew.bat
 
